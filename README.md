@@ -9,7 +9,8 @@ converted to structured markdown with extracted images.
 - Suitable for RAG pipelines, AI training, and search indexing
 
 ## Demo
-This repository contains a sample chapter (Flight Controls).
+Sample chapter: [Flight Controls](demo.md)
+
 Full dataset available for licensing.
 
 ## Contact
