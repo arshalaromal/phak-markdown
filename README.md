@@ -1,17 +1,29 @@
 # PHAK Markdown Dataset
 
-The FAA Pilot's Handbook of Aeronautical Knowledge (PHAK) 
-converted to structured markdown with extracted images.
+The FAA Pilot's Handbook of Aeronautical Knowledge (PHAK) is a complex,
+densely formatted document — multi-column layouts, technical diagrams,
+tables, and hundreds of images across thousands of pages. Converting it
+into a clean, machine-readable format is non-trivial.
 
-## Structure
-- Each chapter is a separate `.md` file
-- Images are extracted and referenced inline
-- Suitable for RAG pipelines, AI training, and search indexing
+This repository contains a sample chapter of the PHAK converted into
+structured markdown with properly extracted and linked images — ready
+for immediate use in AI pipelines.
+
+## What makes this useful
+
+- **AI training data** — clean, structured text for fine-tuning aviation models
+- **RAG pipelines** — chunk and index directly into vector databases
+- **Search engines** — structured headers make semantic search straightforward
+- **Chatbots** — feed directly into LLM knowledge bases
+- **Study tools** — structured content ready for flashcard or quiz generation
 
 ## Demo
+
 Sample chapter: [Flight Controls](demo.md)
 
-Full dataset available for licensing.
+## Full Dataset
 
-## Contact
-arshalaromal19@gmail.com
+The complete PHAK dataset includes all chapters with extracted images
+and consistent formatting throughout.
+
+For licensing inquiries, contact: arshalaromal19@gmail.com
